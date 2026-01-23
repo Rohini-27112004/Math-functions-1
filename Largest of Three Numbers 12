@@ -8,12 +8,15 @@ public class Solution {
         int a = obj.nextInt();
         int b = obj.nextInt();
         int c = obj.nextInt();
-        if(a>b && a>c)
-            System.out.println("A is largest then b and c");
-        else if(b>c && b>a)
+        if(a >= b &&  a >= c){
+            System.out.println("a is largest then b and c");
+        }
+        else if (b >= a && b >= c ){
             System.out.println("b is largest then a and c");
-        else if(c>a && c>b)
+        }else{
+        
             System.out.println("c is largest then a and b");
+    }
     }
       
 }
