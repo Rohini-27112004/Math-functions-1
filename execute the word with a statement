@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner inn = new Scanner(System.in);
+        String word = inn.next();
+        System.out.println("May I know how to learn " + word + "!!!...");
+        
+    }
+}
